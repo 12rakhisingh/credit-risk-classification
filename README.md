@@ -47,23 +47,23 @@ Summarise the results of the machine learning models, and include a recommendati
 
 - The Logistic Regression model demonstrates strong performance in predicting loan credit risk.
 
--- Key Findings:  
+Key Findings:  
 Overall accuracy: 0.99  
 Near-perfect precision, recall, and F1-score for healthy loans (Class 0)  
 Solid performance for high-risk loans (Class 1), with precision: 0.84, recall: 0.94, and F1-score: 0.89  
 Macro and weighted averages show balanced performance across both classes.  
 
--- Model Recommendation: Logistic Regression appears to be the most suitable model for this task due to:  
+Model Recommendation: Logistic Regression appears to be the most suitable model for this task due to:  
 High overall accuracy (0.99)  
 Excellent precision and recall for both healthy and high-risk loans  
 Balanced results across both classes, as shown by macro and weighted averages.  
 
--- Problem-Specific Considerations:  
+Problem-Specific Considerations:  
 High-risk loans (Class 1): Despite lower precision (0.84), the high recall (0.94) indicates that most high-risk loans are correctly identified, with few false negatives.  
 Healthy loans (Class 0): Near-perfect precision and recall ensure that healthy loans are rarely misclassified as high-risk.  
 
--- Dependence on Priorities:  
+Dependence on Priorities:  
 If reducing false positives (healthy loans wrongly flagged as high-risk) is a priority, the model’s high precision for Class 0 is advantageous.    
 If reducing false negatives (high-risk loans misclassified as healthy) is more critical, the model’s high recall for Class 1 is beneficial.  
 
--- Conclusion: Logistic Regression is highly recommended for predicting loan credit risk, offering strong and balanced performance. However, model refinements or hyperparameter tuning can be considered based on specific business priorities, such as minimizing false positives or false negatives.  
+Conclusion: Logistic Regression is highly recommended for predicting loan credit risk, offering strong and balanced performance. However, model refinements or hyperparameter tuning can be considered based on specific business priorities, such as minimizing false positives or false negatives.  
